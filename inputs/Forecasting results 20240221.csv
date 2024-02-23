@@ -31,13 +31,13 @@ neural network,TCN Forecaster in NeuralForecast,0.692,0.9528,0.9445,0.53725,1.10
 neural network,NHiTS Forecaster in Darts,0.6125,1.0832,0.859,0.7505,0.909,1.09,0.9445,0.893833333
 neural network,Informer Forecaster in NeuralForecast,0.72075,0.9232,0.917,0.72925,0.812,1.241666667,0.8975,0.882875
 neural network,LagTST Forecaster in GluonTS,0.6755,0.9902,1.0035,0.7375,0.8075,1.059666667,0.94475,0.882625
-neural network,NBEATS Forecaster in GluonTS,0.6165,0.9154,0.912,0.55275,0.752,1.313666667,0.88875,0.836583333
 neural network,TSMixer,0.6555,0.8816,0.8915,0.7675,0.6565,1.006,0.81025,0.810625
 neural network,RNN forecaster using PyTorch,0.65875,0.8868,1.0965,0.47075,0.691,1.111666667,0.89425,0.809958333
 neural network,PatchMixer,0.67725,0.8518,1.087,0.50925,0.625,1.057333333,0.9035,0.800625
 neural network,DeepAR Forecaster in GluonTS,0.74275,0.9084,0.8665,0.4835,0.6285,1.142333333,0.82925,0.799208333
 neural network,CNN forecaster using PyTorch,0.60375,0.8728,1.0885,0.44475,0.676,1.229333333,0.8235,0.794541667
 neural network,Temporal Fusion Transformer Forecaster in GluonTS,0.8075,0.8518,0.8235,0.4935,0.6145,1.069666667,0.86475,0.791958333
-neural network,Variational Encoder Forecasting Model,0.6805,0.8278,0.808,0.5385,0.6195,1.128,0.882,0.782583333
+neural network,NBeats Forecasting Model with Pretraining,0.784,0.8304,0.829,0.497,0.613,1.084,0.87525,0.788041667
 neural network,MLP Forecaster in NeuralForecast,0.6125,0.8844,0.8015,0.474,0.7435,1.105,0.89575,0.7815
 neural network,PatchTST Forecaster in GluonTS,0.60325,0.9152,0.87,0.51275,0.6025,1.144,0.8285,0.780458333
+neural network,Variational Encoder Forecasting Model with Pretraining,0.657,0.8208,0.8495,0.4925,0.637,1.110666667,0.8415,0.765541667
