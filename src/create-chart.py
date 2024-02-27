@@ -5,7 +5,7 @@ import chardet
 import sys
 
 # Load the benchmarking results
-file_path = './../inputs/Forecasting results 20240221.csv'
+file_path = './../inputs/forecast_models_rmsse_scores.csv'
 heatmap_file_path = './../outputs/forecasting_models_heatmap.png'
 
 
