@@ -46,6 +46,54 @@ Utilizing deep learning architectures, Neural-Network models are adept at modeli
 
 - **Examples:** NBeats, RNN (LSTM), Convolutional Neural Networks (CNN), PatchTST, TSMixer, Transformer models.
 
+## List of Models and their URLS
+
+| category                       | model_name                                             | repo_url                                                                         |
+| ------------------------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| naïve (baseline)               | Naive Seasonal Forecaster in Darts                     | https://github.com/readytensor/rt_forecasting_darts_naive_seasonal               |
+| naïve (baseline)               | Naive Drift Forecaster in Darts                        | https://github.com/readytensor/rt_forecasting_darts_naive_drift                  |
+| naïve (baseline)               | Naive Recent Window Mean Forecaster in Darts           | https://github.com/readytensor/rt_forecasting_darts_naive_recent_window_mean     |
+| naïve (baseline)               | Naive Moving Average Forecaster in Darts               | https://github.com/readytensor/rt_forecasting_darts_naive_moving_average         |
+| statistical                    | Double Exponential Smoothing Forecaster in NumPy       | https://github.com/readytensor/rt_forecasting_single_exponential_smoothing_numpy |
+| statistical                    | Single Exponential Smoothing Forecaster in NumPy       | https://github.com/readytensor/rt_forecasting_double_exponential_smoothing_numpy |
+| statistical                    | AutoARIMA Forecaster in Darts                          | https://github.com/readytensor/rt_forecasting_darts_AutoARIMA                    |
+| statistical                    | BATS Forecaster in Darts                               | https://github.com/readytensor/rt_forecasting_darts_BATS                         |
+| statistical                    | FourTheta Forecaster in Darts                          | https://github.com/readytensor/rt_forecasting_darts_FourTheta                    |
+| statistical                    | Theta Forecaster in Darts                              | https://github.com/readytensor/rt_forecasting_darts_Theta                        |
+| statistical                    | TBATS Forecaster in Darts                              | https://github.com/readytensor/rt_forecasting_darts_TBATS                        |
+| statistical / machine-learning | Facebook Prophet Forecaster                            | https://github.com/readytensor/rt_forecasting_prophet                            |
+| statistical / machine-learning | DLinear Forecaster in GluonTS                          | https://github.com/readytensor/rt_forecasting_gluonts_D-Linear                   |
+| machine-learning               | Support Vector Forecaster in MLForecast                | https://github.com/readytensor/rt_forecasting_mlforecast_svr                     |
+| machine-learning               | K Nearest Neighbors Forecaster in MLForecast           | https://github.com/readytensor/rt_forecasting_mlforecast_knn                     |
+| machine-learning               | Adaboost Forecaster in Skforecast                      | https://github.com/readytensor/rt_forecasting_skforecast_Adaboost                |
+| machine-learning               | Catboost Forecaster in Darts                           | https://github.com/readytensor/rt_forecasting_darts_Catboost                     |
+| machine-learning               | LightGBM Forecaster in MLForecast                      | https://github.com/readytensor/rt_forecasting_mlforecast_lightgbm                |
+| machine-learning               | Gradient Boosting Forecaster in Skforecast             | https://github.com/readytensor/rt_forecasting_skforecast_GradientBoosting        |
+| machine-learning               | ElasticNet Forecaster in MLForecast                    | https://github.com/readytensor/rt_forecasting_mlforecast_elasticnet              |
+| machine-learning               | XGBoost Forecasting Model in Scikit-Learn              | https://github.com/readytensor/rt_forecasting_skforecast_xgboost                 |
+| machine-learning               | Voting Forecaster in MLForecast                        | https://github.com/readytensor/rt_forecasting_mlforecast_voting                  |
+| machine-learning               | Ridge Forecaster in Skforecast                         | https://github.com/readytensor/rt_forecasting_skforecast_Ridge                   |
+| machine-learning               | Random Forest Forecasting Model in Scikit-Learn        | https://github.com/readytensor/rt_forecasting_random_forest_sklearn              |
+| machine-learning               | Extra Trees Forecasting Model in Scikit-Learn          | https://github.com/readytensor/rt_forecasting_extra_trees_sklearn                |
+| neural network                 | Transformer Forecaster in Darts                        | https://github.com/readytensor/rt_forecasting_darts_TransformerModel             |
+| neural network                 | NHiTS Forecaster in NeuralForecast                     | https://github.com/readytensor/rt_forecasting_neuralforecast_nhits               |
+| neural network                 | Autoformer Forecaster in NeuralForecast                | https://github.com/readytensor/rt_forecasting_neuralforecast_autoformer          |
+| neural network                 | LagTST Forecaster in GluonTS                           | https://github.com/readytensor/rt_forecasting_gluonts_lag_tst                    |
+| neural network                 | Time-series Dense Encoder Forecaster in Darts          | https://github.com/readytensor/rt_forecasting_darts_TiDE                         |
+| neural network                 | Neural Prophet Forecaster                              | https://github.com/readytensor/rt_forecasting_neural_prophet                     |
+| neural network                 | TCN Forecaster in NeuralForecast                       | https://github.com/readytensor/rt_forecasting_neuralforecast_tcn                 |
+| neural network                 | Informer Forecaster in NeuralForecast                  | https://github.com/readytensor/rt_forecasting_neuralforecast_informer            |
+| neural network                 | TSMixer Forecaster                                     | https://github.com/readytensor/rt_forecasting_TSMixer                            |
+| neural network                 | RNN forecaster using PyTorch                           | https://github.com/readytensor/rt_forecasting_rnn_pytorch                        |
+| neural network                 | PatchMixer Forecaster                                  | https://github.com/readytensor/rt_forecasting_patch_mixer                        |
+| neural network                 | DeepAR Forecaster in GluonTS                           | https://github.com/readytensor/rt_forecasting_gluonts_DeepAR                     |
+| neural network                 | CNN forecaster using PyTorch                           | https://github.com/readytensor/rt_forecasting_cnn_pytorch                        |
+| neural network                 | Temporal Fusion Transformer Forecaster in GluonTS      | https://github.com/readytensor/rt_forecasting_gluonts_tft                        |
+| neural network                 | NBeats Forecasting Model with Pretraining              | https://github.com/readytensor/rt_forecasting_nbeats_with_pretraining            |
+| neural network                 | MLP Forecaster in NeuralForecast                       | https://github.com/readytensor/rt_forecasting_neuralforecast_mlp                 |
+| neural network                 | PatchTST Forecaster in GluonTS                         | https://github.com/readytensor/rt_forecasting_gluonts_patch_tst                  |
+| neural network                 | Variational Encoder Forecasting Model with Pretraining | https://github.com/readytensor/rt_forecasting_var_enc_fcst_w_pretraining         |
+
 ## Dataset Characteristics: Frequencies and Covariates
 
 In our project, datasets are not only categorized by their temporal frequencies but also distinguished by the presence and types of covariates they include. This classification acknowledges the complexity of real-world forecasting tasks, where additional information (exogenous variables) can significantly influence model performance.
