@@ -48,6 +48,8 @@ Utilizing deep learning architectures, Neural-Network models are adept at modeli
 
 ## List of Models and their URLS
 
+The following table lists the 43 forecasting models included in the published benchmark results, along with their respective categories, model names, and repository URLs. These models are implemented in various libraries and frameworks, including Darts, NumPy, GluonTS, MLForecast, Skforecast, Scikit-Learn, NeuralForecast, and PyTorch. The repository URLs provide access to the source code and documentation for each model, enabling users to explore and implement these models in their own forecasting tasks.
+
 | category                       | model_name                                             | repo_url                                                                         |
 | ------------------------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | naïve (baseline)               | Naive Seasonal Forecaster in Darts                     | https://github.com/readytensor/rt_forecasting_darts_naive_seasonal               |
