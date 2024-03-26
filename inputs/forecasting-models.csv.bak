@@ -39,7 +39,7 @@ Voting Forecaster in MLForecast,machine-learning,1
 XGBoost Forecaster in Darts,machine-learning,0
 XGBoost Forecaster in MLForecast,machine-learning,0
 XGBoost Forecaster in Skforecast,machine-learning,0
-XGBoost Forecasting Model - GPU,machine-learning,1
+XGBoost Forecasting Model,machine-learning,1
 Adaboost Forecaster in Skforecast,machine-learning,1
 Gradient Boosting Forecaster in Skforecast,machine-learning,1
 Autoformer Forecaster in NeuralForecast,neural network,1
