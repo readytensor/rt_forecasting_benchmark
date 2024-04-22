@@ -22,9 +22,9 @@ def read_files():
     return scores, datasets, models
 
 def aggregate_scores(scores, datasets, models):
-    filtered = scores[scores["metric_external_id"] == METRIC]
+    filtered = scores[scores["metric_external_id"] == METRIC].copy()
     # filtered["final_metric_value"] = -1 * filtered["final_metric_value"]
-    filtered.loc[:, "final_metric_value"] = -1 * filtered["final_metric_value"]
+    filtered["final_metric_value"] *= -1
 
     average_rmsse_per_model = filtered.groupby('model_name')['final_metric_value']\
         .mean().reset_index().rename(columns={'final_metric_value': 'overall'})
