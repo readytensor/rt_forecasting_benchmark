@@ -68,7 +68,7 @@ Time-series Dense Encoder Forecaster in Darts,neural network,1
 Transformer Forecaster in Darts,neural network,1
 TSMixer,neural network,0
 Variational Encoder Forecasting Model,neural network,0
-Variational Encoder Forecasting Model with Pretraining,neural network,1
+Variational Encoder Forecasting Model with Pretraining,neural network,0
 WaveNet Forecaster in GluonTS,neural network,0
 CNN forecaster using PyTorch,neural network,1
 CNN Forecasting Model with Pretraining in PyTorch,neural network,0
@@ -99,3 +99,4 @@ NBeats Forecaster with pretraining and TSMixing,neural network,0
 Variational Encoder Forecaster with pretraining and TSMixing,neural network,0
 NBeats Forecaster with pretraining by Kernel Synthesizer,neural network,0
 Variational Encoder with pre-training by Kernel Synthesizer,neural network,0
+Variational Encoder Forecaster with TSMix in PyTorch,neural network,1
